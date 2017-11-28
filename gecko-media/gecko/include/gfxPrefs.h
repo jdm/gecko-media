@@ -650,6 +650,7 @@ private:
 
   DECL_GFX_PREF(Live, "layout.display-list.build-twice",       LayoutDisplayListBuildTwice, bool, false);
   DECL_GFX_PREF(Live, "layout.display-list.retain",            LayoutRetainDisplayList, bool, true);
+  DECL_GFX_PREF(Live, "layout.display-list.retain.verify",     LayoutVerifyRetainDisplayList, bool, false);
   DECL_GFX_PREF(Live, "layout.display-list.rebuild-frame-limit", LayoutRebuildFrameLimit, uint32_t, 500);
   DECL_GFX_PREF(Live, "layout.display-list.dump",              LayoutDumpDisplayList, bool, false);
   DECL_GFX_PREF(Live, "layout.display-list.dump-content",      LayoutDumpDisplayListContent, bool, false);
@@ -678,6 +679,7 @@ private:
   DECL_GFX_PREF(Live, "media.wmf.skip-blacklist", PDMWMFSkipBlacklist, bool, false);
   DECL_GFX_PREF(Live, "media.wmf.deblacklisting-for-telemetry-in-gpu-process", PDMWMFDeblacklistingForTelemetryInGPUProcess, bool, false);
   DECL_GFX_PREF(Live, "media.wmf.amd.vp9.enabled", PDMWMFAMDVP9DecoderEnabled, bool, true);
+  DECL_GFX_PREF(Live, "media.wmf.amd.highres.enabled", PDMWMFAMDHighResEnabled, bool, true);
   DECL_GFX_PREF(Live, "media.wmf.allow-unsupported-resolutions",  PDMWMFAllowUnsupportedResolutions, bool, false);
 #endif
 
